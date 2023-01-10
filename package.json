@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mouataz97/Sass_Bootstrap_Project/issues"
   },
-  "homepage": "https://github.com/mouataz97/Sass_Bootstrap_Project#readme"
+  "homepage": "https://github.com/mouataz97/Sass_Bootstrap_Project#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
