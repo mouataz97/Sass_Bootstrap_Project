@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mouataz97/Sass_Bootstrap_Project#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "material-icons": "^1.13.1"
   }
 }
