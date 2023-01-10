@@ -1,13 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.sass">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
 </head>
 <body>
-    
-</body>
+    <div class="container-fluid px-0">
+
+      <!-- Navbar -->
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between pt-3 pb-2">
+          <a class="col-md-3 d-flex align-items-center mb-2 mb-md-0 h4 text-white text-decoration-none text-uppercase" href="/">
+            <span class="material-icons-outlined me-1">storm</span>
+            shopfashion
+          </a>
+
+          <ul class="nav col-md-auto mb-2 justify-content-center mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="#AboutMe">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="#Products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+      <!-- End Navbar -->
+
+      <hr class="text-secondary">
+
+      <!-- Hero -->
+      <section class="py-5">
+        <div class="container px-5">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="text-center my-5">
+                <h2 class="text-white fw-bold mb-2">El Mouataz Billah Fachatti</h2>
+                <h2 class="text-primary fw-bold mb-2" id="AboutMe">About Me</h2>
+                <p class="lead text-secondary mb-4">
+                  certified developper with: <br> HTML CSS SASS Bootstrap and JavaScript
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-center mb-5">
+                  <button type="button" class="btn btn-primary btn-lg text-white text-uppercase px-4 me-sm-3 rounded-0">
+                    Learn More 
+                    <span class="material-icons-outlined ms-2">help_outline</span>
+                  </button>
+                  <button type="button" id="demo" class="btn btn-outline-primary btn-lg text-uppercase px-4 me-sm-3 rounded-0">
+                    View Demo
+                    <span class="material-icons-outlined ms-2">play_circle</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 justify-content-center">
+              <img class="img-fluid rounded-2 my-5" src="imges/hero.jpg" alt="Hero Image">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Hero -->
+
+      <hr class="text-secondary">
+
+      <main>
+        <!-- Products -->
+        <section class="container px-4 py-5">
+          <h2 class="text-center text-white fw-bold pb-2" id="Products">Products</h2>
+
+          <div class="row align-items-center">
+
+            <div class="col-xl-5 col-xxl-6">
+              <div class="d-flex flex-column gap-2 align-items-start py-5">
+                <h3 class="text-white fw-bold">El Mouataz Billah Fachatti</h3>
+                <p class="text-secondary">
+                  To provide you with the last fashion and all ressources required you can follow us for more
+                </p>
+                <button type="button" class="btn btn-primary btn-lg text-white text-uppercase px-4 me-sm-3 rounded-0">
+                  Subscribe
+                  <span class="material-icons-outlined ms-2">subscriptions</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="row row-cols-sm-2 g-4">
+                <div class="d-flex flex-column gap-2">
+                  <div class="product-icon d-inline-flex align-items-center justify-content-center bg-primary text-white fs-4 rounded-0">
+                    <i class="bi bi-bag-fill"></i>
+                  </div>
+                  <h4 class="text-white fw-semibold mb-0">Clothes Fashion</h4>
+                  <p class="text-secondary">All type of clothes and last Fashion you can find here.</p>
+                </div>
+
+                <div class="d-flex flex-column gap-2">
+                  <div class="product-icon d-inline-flex align-items-center justify-content-center bg-primary text-white fs-4 rounded-0">
+                    <i class="bi bi-headphones"></i>
+                  </div>
+                  <h4 class="text-white fw-semibold mb-0">Tech</h4>
+                  <p class="text-secondary">Here is Gaming, Electronics, Phones and all electronique equipement u might need.</p>
+                </div>
+
+                <div class="d-flex flex-column gap-2">
+                  <div class="product-icon d-inline-flex align-items-center justify-content-center bg-primary text-white fs-4 rounded-0">
+                    <i class="bi bi-house-door"></i>
+                  </div>
+                  <h4 class="text-white fw-semibold mb-0">House equipement</h4>
+                  <p class="text-secondary">Visit your new house to cheack all decoration and machines to make your house beautiful and more comfortble.</p>
+                </div>
+
+                <div class="d-flex flex-column gap-2">
+                  <div class="product-icon d-inline-flex align-items-center justify-content-center bg-primary text-white fs-4 rounded-0">
+                    <i class="bi bi-suit-heart"></i>
+                  </div>
+                  <h4 class="text-white fw-semibold mb-0">Health & Beauty</h4>
+                  <p class="text-secondary">All ressources from cleaning and makes up to food enjoy your life and stay healthy.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- End Products -->
+
+        <!-- Call to Action -->
+        <section class="bg-primary p-5 p-sm-5 mt-5">
+          <div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+
+            <div class="mb-4 mb-xl-0" id="Contact">
+                    <p class="text-white fs-3 fw-bold">New products, delivered to you.</p>
+                    <p class="text-white-50">Sign up for our newsletter for the latest updates.</p>
+                <a class="ms-3 text-decoration-none" href="#">
+                  <i class="bi bi-twitter text-primary"></i>
+                </a>
+                <a class="ms-3 text-decoration-none" href="#">
+                  <i class="bi bi-instagram text-primary"></i>
+                </a>
+                <a class="ms-3 text-decoration-none" href="#">
+                  <i class="bi bi-facebook text-primary"></i>
+                </a>
+            </div>
+
+            <div class="ms-xl-4">
+              <div class="input-group mb-2">
+                <input type="email" class="form-control rounded-0" placeholder="Email address...">
+                <button type="button" class="btn btn-outline-light rounded-0">Sign Up</button>
+              </div>
+              <p class="small text-white-50">We care about privacy and will never share your data.</p>
+            </div>
+          </div>
+        </section>
+        <!-- End Call to Action -->
+      </main>
+    </div>
+
+  </body>
 </html>
